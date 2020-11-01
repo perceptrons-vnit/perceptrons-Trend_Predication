@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>About</title>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/about.css') }}">
+</head>
+<body>
+	
+	<div class="banner-text">
+		<ul class="nav_links">
+			<li><a href="{{ url_for('s') }}">Home</a></li>
+			<li><a href="{{ url_for('trends') }}">Trends</a></li>
+			<li><a href="{{ url_for('about') }}">About</a></li>
+		</ul>
+		<br>
+		<h2><i>Fashion Trends & Forecasting</i></h2>
+		<h3>We are developing a solution that analyzes the precise details of social media images for a understanding of the trending products giving the customers a better insight to contemporary fashion. <br>
+		By analyzing what’s Trending on social media, we are able to generate attributes and look for similar items in the inventory. This allows fashion websites to keep up with the current styles and expand their client base.
+		</h3>
+		<br>
+		<section class="lhs"> 
+		<h2>What We Do..</h2>
+		<h4>Use social media to detect emerging Fashion Trends. Our Prototype turns a large number of poplar and most-liked Instagram Posts fashion insights which can also help in predicting the future of fashion and hence increase the growth of the industry.</h4>
+		<br>
+		<h2>Why this Project?</h2>
+		<h4>Often people face a hard time following latest fashion trends. The process becomes more tiresome when the trends that one finds on social media, need to be searched on e-commerce platforms. We combined the two, to increase efficiency of this process, to make it easier for a Fashion-Layman.</h4>
+		</section>
+		<section class="rhs">
+			<img src="{{ url_for('static', filename='images/ts2.jpg') }}">
+		</section>
+		<br>
+		<h3> </h3>
+		<section class="centerr">
+			<h4>Model can be extended to predict the kind of clothing that will trend in future by collecting the data about past and prevailing trends. Fashion Industry can be benefitted if the future of fashion is predicted accurately!
+			</h4>
+			<h2 class="team">Meet The Team</h2>
+			<div class="row">				
+				<br>
+				<div class="col-4">
+					<img src="{{ url_for('static', filename='images/ts3.jpg') }}">
+            		<p><b>Sanya Chetwani</b></p>
+            		<h5>ssanyachetwani@gmail.com</h5>
+        		</div>
+        		<div class="col-4">
+            		<img src="{{ url_for('static', filename='images/ts4.jpg') }}">
+            		<p><b>Kedar Vaidya</b></p>
+            		<h5>kedarvaidya0504@gmail.com
+</h5>
+        		</div>
+        		<div class="col-4">
+            		<img src="{{ url_for('static', filename='images/ts5.jpg') }}">
+            		<p><b>Tejas Khandwekar</b></p>
+            		<h5>tejas5589@students.vnit.ac.in
+</h5>
+        		</div>
+
+        		<div class="col-4">
+            		<img src="{{ url_for('static', filename='images/ts6.jpg') }}">
+            		<p><b>Aishwarya Sen</b></p>
+            		<h5>aishwaryasen83@gmail.com
+</h5>
+        		</div>
+			</div>
+		</section>
+	</div>
+	
+	<div class="animation-area">
+		<ul class="box-area">
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+	</div>
+</body>
+</html>

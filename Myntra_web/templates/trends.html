@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <title>Trends Page</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/trends.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul class="nav_links">
+				<li><a href="{{ url_for('s') }}">Home</a></li>
+                <li><a href="{{ url_for('trends') }}">Trends</a></li>
+            	<li><a href="{{ url_for('about') }}">About</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div class="container">
+		<section class="left_bar">
+			<div class="check_box">
+			<p><h2><b><u>FILTERS</u></b></h2></p>
+			<br>
+			<p><h3><u>Types</u></h3>
+			<form method = "POST" action= "/trends">
+				<ul>
+					<li><input type="checkbox" value = "regular_fit" name="typeof"><a>regular_fit</a></li>
+					<li><input type="checkbox" value = "knee_length" name="typeof"><a> knee_length</a></li>
+					<li><input type="checkbox" value = "high_waist" name="typeof"><a> high_waist</a></li>
+					<li><input type="checkbox" value = "normal_waist" name="typeof"><a> normal_waist</a></li>
+				</ul>
+				</p>
+				<br>
+				</div>
+				<div class="check_box">
+				<p><h3><u>Hashtags</u></h3>
+				<ul>
+					<li><input type="checkbox" name="hastag"><a> Bollywood</a></li>
+					<li><input type="checkbox" name="hastag"><a> Fashion Influencers</a></li>
+					<li><input type="checkbox" name="hastag"><a> Party Wear</a></li>
+					<li><input type="checkbox" name="hastag"><a> Casuals</a></li>
+					<li><input type="checkbox" name="hastag"><a> Airport Looks</a></li>
+					<li><input type="checkbox" name="hastag"><a> Fall/Winter</a></li>
+				</ul>
+				</p>
+				<br>
+				</div>
+				<div class="check_box">
+				<p><h3><u>Colours</u></h3>
+				<ul>
+					<li><input type="checkbox" value = 'pink' name="colourval"><a> Pink</a></li>
+					<li><input type="checkbox" value = 'blue' name="colourval"><a> Blue</a></li>
+					<li><input type="checkbox" value = 'black' name="colourval"><a> Black</a></li>
+					<li><input type="checkbox" value = 'brown' name="colourval"><a> Brown</a></li>
+					<li><input type="checkbox" value = 'green' name="colourval"><a> Green</a></li>
+					<li><input type="checkbox" value = 'white' name="colourval"><a> White</a></li>
+				</ul>
+				<input type="submit">
+			</form>
+			</p>
+			</div>
+		</section>
+		<section class="main_bar">
+			<h2 class="title"><u><b>Trending Now</b></u></h2>
+			{% for row in range(3) %}
+			<br>
+				{% set rowloop = loop.index - 1 %}
+			<div class="row">
+				{% for colm in range(4) %}
+        		<div class="col-4">
+            		<img src="{{ url_for('static', filename = 'Database_images/' + images[4*rowloop + loop.index - 1]) }}">
+            	</div>
+				{% endfor %}
+			</div>
+			<br>
+			{% endfor %}
+		</section>
+	</div>
+	
+</body>
+</html>

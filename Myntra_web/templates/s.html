@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="one stop fashion destination">
+    <title>my Index Page</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/s.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>  
+    <div class="header">  
+    <div class="container">
+        <div class="small-container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="{{ url_for('static', filename='images/mylogo1.png') }}" alt="" width="125px">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="{{ url_for('s') }}">Home</a></li>
+                    <li><a href="{{ url_for('trends') }}">Trends</a></li>
+                    <li><a href="{{ url_for('about') }}">About</a></li>            
+                </ul>
+            </nav>
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <img src="{{ url_for('static', filename='images/confbg.png') }}" alt="">
+            </div>
+            <div class="col-2">
+                <h1> Tired of Your Same Old Wardrobe? </h1>
+                <h2> We got you covered!</h2>
+                <a href="{{ url_for('trends') }}" class="btn">Explore Now</a>
+            </div>
+            
+        </div> 
+        </div>   
+    </div>  
+    </div>            
+    
+
+<!----featured sec----->
+    <div class="categories">
+        <h2 class="title">Follow the Latest Trends</h2>
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="{{ url_for('static', filename='images/anush1.jpg') }}" alt="">
+                    <a href=""><h4><b>Ethnic</b></h4></a>
+                </div>
+                <div class="col-3"><img src="{{ url_for('static', filename='images/katrina 1.jpg') }}" alt="">
+                    <a href=""><h4><b>Western</b></h4></a>
+                </div>
+                <div class="col-3"><img src="{{ url_for('static', filename='images/deep1.jpg') }}" alt="">
+                    <a href=""><h4><b>Active Wear</b></h4></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!----featured sec----->
+    <div class="cont2">
+    <div class="small-container-2">
+        <h2 class="title">CHART TOPPERS</h2>
+        <div class="row">
+        <div class="col-4">
+            <img src="{{ url_for('static', filename='images/ak1.jpg') }}" alt="">
+            <a href=""><h4>Black Denim Shorts</h4></a>
+        </div>
+        <div class="col-4">
+            <img src="{{ url_for('static', filename='images/ak2.jpg') }}" alt="">
+            <a href=""><h4>Black Crop Top</h4></a>
+           
+        </div>
+        <div class="col-4">
+            <img src="{{ url_for('static', filename='images/ak3.jpg') }}" alt="">
+            <a href=""><h4>Sand Brown Turtle-Neck</h4></a>
+            
+        </div>
+        <div class="col-4">
+            <img src="{{ url_for('static', filename='images/ak4.jpg') }}" alt="">
+            <a href=""><h4>Deep Green Jacket</h4></a>
+            
+        </div>
+        </div>
+    </div>
+    </div>
+
+</body>
+</html>
