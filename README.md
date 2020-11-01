@@ -1,5 +1,5 @@
 # Theme:3 Trendiness
-## Table of Content
+## Table of Contents
 - [Overview](#Overview)
 - [Objective](#Objective)
 - [Procedure](#Procedure)
