@@ -35,7 +35,7 @@ The Virtual Trial Room will provide an easy and pleasant experience for any user
 
 - Making use of this feature of Instagram, a model - instagram_scraper1.py is created.
 
- The scraper model ( instagram_scraper1.py ) outputs - profile.txt, profiles.csv and datetime.csv.
+ The scraper model ( instagram_scraper1.py ) outputs -`profile.txt `, profiles.csv and datetime.csv.
  
  This shows us a detailed list of the profile names and the respective time stamps of posts appearing on the feed.
  
