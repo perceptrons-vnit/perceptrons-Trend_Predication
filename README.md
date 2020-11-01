@@ -49,11 +49,22 @@ in the command line.
 
 > This compares the date time list with the csv files to obtain the required images and downloads them.
 
-This completes the creation of basicdataset required for further steps.
+This completes the creation of basic dataset required for further steps.
 
 ### Semantic Segmentation
 
+Mask-RCNN is used to output segmented images or masks from the basic dataset created by us.
+
 ### Attribute Recognition
+
+- A decoder-encoder model is used, the decoder being InceptionV3 model and encoder an LSTM-based model.
+
+- The masks are fed to this model. The model grabs the images and classifies the pixels.
+
+-  K- Means Classification is used for colour detection.
+
+The final output of this prototype includes a list of the most trending colours and attributes for the user to choose from.
+
 ## Installation
 ## Results
 
