@@ -82,7 +82,9 @@ A few examples of images obtained using the Mask-RCNN model for semantic segment
 
 ## Technologies Used
 
-<img src="https://user-images.githubusercontent.com/73772990/97809284-67a49700-1c85-11eb-9e03-76dc3739f7d4.png" alt="Coat" width="100"/>
-<img src="https://user-images.githubusercontent.com/73772990/97809326-a20e3400-1c85-11eb-8aea-9d79449e2d15.png" alt="Coat" width="250"/>
-<img src="https://user-images.githubusercontent.com/73772990/97808735-fadbcd80-1c81-11eb-8690-e2fb88b963ca.png" alt="Coat" width="250"/>
-
+<img src="https://user-images.githubusercontent.com/73772990/97809284-67a49700-1c85-11eb-9e03-76dc3739f7d4.png" width="100"/>
+<img src="https://user-images.githubusercontent.com/73772990/97809326-a20e3400-1c85-11eb-8aea-9d79449e2d15.png" width="100"/>
+<img src="https://user-images.githubusercontent.com/73772990/97809354-ccf88800-1c85-11eb-9c25-71bee5b5f90d.png" width="100"/>
+<img src="https://user-images.githubusercontent.com/73772990/97809326-a20e3400-1c85-11eb-8aea-9d79449e2d15.png" width="100"/>
+<img src="https://user-images.githubusercontent.com/73772990/97809326-a20e3400-1c85-11eb-8aea-9d79449e2d15.png" width="100"/>
+<img src="https://user-images.githubusercontent.com/73772990/97809326-a20e3400-1c85-11eb-8aea-9d79449e2d15.png" width="100"/>
