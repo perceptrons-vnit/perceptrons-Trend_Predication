@@ -32,7 +32,8 @@ The first step includes collecting images from the popular social media site - I
 ## Installation
 ## Results
 
-1. The scraper model ( instagram_scraper1.py ) outputs - 
+1. The scraper model ( instagram_scraper1.py ) outputs 
+
 ⋅⋅* profile.txt
 ⋅⋅* profiles.csv
 ⋅⋅* datetime.csv
