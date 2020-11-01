@@ -27,7 +27,7 @@ Our model detects the latest trends in the market to help the user make the righ
 The Virtual Trial Room will provide an easy and pleasant experience for any user.
 
 ## Procedure
-# Trend Prediction
+### Trend Prediction
 1. The first step includes collecting images from the popular social media site - Instagram.
 - An account following some of the most famous fashion influencers of today is created.
 - Instagram's algorithm ensures that the feed consists of posts in a descending order according to popularity.
@@ -50,9 +50,9 @@ in the command line.
 
 This completes the creation of basicdataset required for further steps.
 
-# Semantic Segmentation
+### Semantic Segmentation
 
-# Attribute Recognition
+### Attribute Recognition
 ## Installation
 ## Results
 
