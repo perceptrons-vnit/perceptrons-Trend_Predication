@@ -24,6 +24,8 @@ Our model detects the latest trends in the market to help the user make the righ
 The Virtual Trial Room will provide an easy and pleasant experience for any user.
 
 ## Procedure
+The first step includes collecting images from the popular social media site - Instagram.
+- An account following some of the most famous fashion influencers of today, is created
 ## Installation
 ## Results
 An example of results obtained using open cv grabcut app:
