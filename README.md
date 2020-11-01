@@ -7,7 +7,7 @@
      *  [Semantic Segmentation](#Semantic-Segmentation)
      *  [Attribute Recognition](#Attribute-Recognition)
 - [Results](#Results)
-- [Technologies-Used](#Technologies-Used)
+- [Technologies Used](#Technologies-Used)
 
 ## Overview
 Fast fashion has caused a massive increase in the rate at which new trends are set.
