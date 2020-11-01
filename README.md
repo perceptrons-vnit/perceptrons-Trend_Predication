@@ -33,6 +33,11 @@ The first step includes collecting images from the popular social media site - I
  
 Next, run syntax.txt i.e. 
 `instagram-scraper -f profile.txt -u perc.eptrons -p Myntra2020 --template {datetime}--latest-stamps time.txt`
+in the command line.
+> This downloads all the images after the particular latest time stamp. 
+> time.txt contains the timestamps after which the images need to be downloaded.
+> A folder containing all such images is created.
+
 ## Installation
 ## Results
 
