@@ -31,7 +31,9 @@ The first step includes collecting images from the popular social media site - I
  The scraper model ( instagram_scraper1.py ) outputs - profile.txt, profiles.csv and datetime.csv.
  This shows us a detailed list of the profile names and the respective time stamps of posts appearing on the feed.
  
-Next, run 
+Next, run syntax.txt i.e. 
+  
+'instagram-scraper -f profile.txt -u perc.eptrons -p Myntra2020 --template {datetime}--latest-stamps time.txt'
 
 ## Installation
 ## Results
