@@ -1,0 +1,1 @@
+instagram-scraper sabyasachiofficial -u perc.eptrons -p Myntra2020 --template {datetime}
