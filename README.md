@@ -35,11 +35,11 @@ The Virtual Trial Room will provide an easy and pleasant experience for any user
 
 - Making use of this feature of Instagram, a model - instagram_scraper1.py is created.
 
- The scraper model ( instagram_scraper1.py ) outputs -`profile.txt `, profiles.csv and datetime.csv.
+ The scraper model ( instagram_scraper1.py ) outputs -`profile.txt `,  `profiles.csv ` and  `datetime.csv `
  
  This shows us a detailed list of the profile names and the respective time stamps of posts appearing on the feed.
  
-2. Next, run syntax.txt i.e. 
+2. Next, run `syntax.txt ` i.e. 
 
 `instagram-scraper -f profile.txt -u perc.eptrons -p Myntra2020 --template {datetime}--latest-stamps time.txt`
 in the command line.
@@ -49,7 +49,7 @@ in the command line.
 
 > A folder containing all such images is created.
 
-3. Run the notebook 'saveimages.py'
+3. Run the notebook `saveimages.py` 
 
 > This provides profile.txt to an open source software used by us, which downloads the images with the required custom time stamp with and saves them in a required directory.
 
