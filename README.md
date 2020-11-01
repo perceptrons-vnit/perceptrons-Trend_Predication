@@ -25,7 +25,9 @@ The Virtual Trial Room will provide an easy and pleasant experience for any user
 
 ## Procedure
 The first step includes collecting images from the popular social media site - Instagram.
-- An account following some of the most famous fashion influencers of today, is created
+- An account following some of the most famous fashion influencers of today is created.
+- Instagram's algorithm ensures that the feed consists of posts in a descending order according to popularity.
+- Making use of this feature of Instagram, a model - instagram_scraper1.py is created.
 ## Installation
 ## Results
 An example of results obtained using open cv grabcut app:
