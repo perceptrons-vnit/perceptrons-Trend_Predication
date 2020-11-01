@@ -28,10 +28,15 @@ The Virtual Trial Room will provide an easy and pleasant experience for any user
 ## Procedure
 ### Trend Prediction
 1. The first step includes collecting images from the popular social media site - Instagram.
+
 - An account following some of the most famous fashion influencers of today is created.
+
 - Instagram's algorithm ensures that the feed consists of posts in a descending order according to popularity.
+
 - Making use of this feature of Instagram, a model - instagram_scraper1.py is created.
+
  The scraper model ( instagram_scraper1.py ) outputs - profile.txt, profiles.csv and datetime.csv.
+ 
  This shows us a detailed list of the profile names and the respective time stamps of posts appearing on the feed.
  
 2. Next, run syntax.txt i.e. 
@@ -69,7 +74,7 @@ The final output of this prototype includes a list of the most trending colours 
 A few examples of images obtained using the Mask-RCNN model for semantic segmentation are given below:
 
 <img src="https://user-images.githubusercontent.com/69817938/97804111-230a0300-1c67-11eb-92e6-f9fdeb224084.png" alt="Coat" width="250"/>
-<img src="https://user-images.githubusercontent.com/69817938/97804111-230a0300-1c67-11eb-92e6-f9fdeb224084.png" alt="Coat" width="250"/>
+<img src="https://user-images.githubusercontent.com/73772990/97808699-c536e480-1c81-11eb-9492-3f99469a789c.png" alt="Coat" width="250"/>
 <img src="https://user-images.githubusercontent.com/69817938/97804111-230a0300-1c67-11eb-92e6-f9fdeb224084.png" alt="Coat" width="250"/>
 
 
