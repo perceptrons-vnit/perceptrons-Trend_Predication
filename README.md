@@ -38,7 +38,13 @@ The first step includes collecting images from the popular social media site - I
 ⋅⋅* profiles.csv
 ⋅⋅* datetime.csv
 
-
+1. First ordered list item
+2. Another item
+⋅⋅* Unordered sub-list. 
+1. Actual numbers don't matter, just that it's a number
+⋅⋅1. Ordered sub-list
+4. And another item.
+* Unordered list can use asterisks
 An example of results obtained using open cv grabcut app:
 
 <img src="https://user-images.githubusercontent.com/69817938/97804111-230a0300-1c67-11eb-92e6-f9fdeb224084.png" alt="Coat" width="250"/>
