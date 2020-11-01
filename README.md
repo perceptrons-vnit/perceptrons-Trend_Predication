@@ -16,7 +16,6 @@ A lot of companies make replica of luxury products at an affordable price.
 As a result it is getting difficult for the average consumer to select apparels from such a vast variety. 
 
 The problem is further elevated by the lack of interaction with the product which exists in traditional shopping, since it is difficult to choose a apparel without trial.
----
 ## Objective
 With the rise of fast fashion, it is difficult to keep track of ever changing trends. 
 
@@ -25,7 +24,6 @@ A model that would help the user filter the products based on the latest trends 
 Our model detects the latest trends in the market to help the user make the right choice. It would serve as each individual’s own personal, low budget stylist. 
 
 The Virtual Trial Room will provide an easy and pleasant experience for any user.
----
 ## Procedure
 ### Trend Prediction
 1. The first step includes collecting images from the popular social media site - Instagram.
@@ -54,7 +52,7 @@ in the command line.
 
 > This provides profile.txt to an open source software used by us, which downloads the images with the required custom time stamp with and saves them in a required directory.
 
-The open source software can be found on this Github repository: [https://github.com/arc298/instagram-scraper]
+The open source software can be found on this Github repository: https://github.com/arc298/instagram-scraper
 
 This completes the creation of basic dataset required for further steps.
 
