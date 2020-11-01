@@ -24,8 +24,6 @@ A model that would help the user filter the products based on the latest trends 
 
 Our model detects the latest trends in the market to help the user make the right choice. It would serve as each individual’s own personal, low budget stylist. 
 
-The Virtual Trial Room will provide an easy and pleasant experience for any user.
-## Procedure
 ### Trend Prediction
 1. The first step includes collecting images from the popular social media site - Instagram.
 
