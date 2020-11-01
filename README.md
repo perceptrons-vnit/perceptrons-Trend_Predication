@@ -3,9 +3,9 @@
 - [Overview](#Overview)
 - [Objective](#Objective)
 - [Procedure](#Procedure)
- *  [Trend Prediction](Trend Prediction)
- *  [Semantic Segmentation](Semantic Segmentation)
- *  [Attribute Recognition](Attribute Recognition)
+ *  [Trend Prediction](#Trend Prediction)
+ *  [Semantic Segmentation](#Semantic Segmentation)
+ *  [Attribute Recognition](#Attribute Recognition)
 - [Installation](#Installation)
 - [Results](#Results)
 
