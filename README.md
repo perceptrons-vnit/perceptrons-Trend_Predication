@@ -81,14 +81,3 @@ A few examples of images obtained using the Mask-RCNN model for semantic segment
 <img src="https://user-images.githubusercontent.com/73772990/97808735-fadbcd80-1c81-11eb-8690-e2fb88b963ca.png" alt="Coat" width="250"/>
 
 
-
-
-
-
-
-
-
-Our model wokrs in many parts :
-  1. Srcaping from instragram the names and dates of relavent influencers for this we run instragram_scraper1.py, we then provide a proflie.txt to an open souce software which downloads images from instragram and saves in the relavent directory. We have made use of custom time stamps so that the open source software only downloads what is required. After that we select the appropriate images thorugh saveimages.py and save them in a dirctory.
-    The open source software can be found on this Github repository: https://github.com/arc298/instagram-scraper
-    `
