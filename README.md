@@ -81,13 +81,6 @@ A few examples of images obtained using the Mask-RCNN model for semantic segment
 <img src="https://user-images.githubusercontent.com/73772990/97808699-c536e480-1c81-11eb-9492-3f99469a789c.png" width="250"/>
 <img src="https://user-images.githubusercontent.com/73772990/97808735-fadbcd80-1c81-11eb-8690-e2fb88b963ca.png" width="250"/>
 
-A few examples of images obtained after attribute detection using the Encoder-Decoder based model are given below:
-
-
-<img src="https://user-images.githubusercontent.com/69817938/97804111-230a0300-1c67-11eb-92e6-f9fdeb224084.png" width="250"/>
-<img src="https://user-images.githubusercontent.com/73772990/97808699-c536e480-1c81-11eb-9492-3f99469a789c.png" width="250"/>
-<img src="https://user-images.githubusercontent.com/73772990/97808735-fadbcd80-1c81-11eb-8690-e2fb88b963ca.png" width="250"/>
-
 
 ## Technologies Used
 
