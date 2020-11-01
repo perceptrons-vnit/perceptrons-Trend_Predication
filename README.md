@@ -3,9 +3,9 @@
 - [Overview](#Overview)
 - [Objective](#Objective)
 - [Procedure](#Procedure)
- * [Trend Prediction](Trend Prediction)
- * [Semantic Segmentation](Semantic Segmentation)
- * [Attribute Recognition](Attribute Recognition)
+* [Trend Prediction](Trend Prediction)
+* [Semantic Segmentation](Semantic Segmentation)
+* [Attribute Recognition](Attribute Recognition)
 - [Installation](#Installation)
 - [Results](#Results)
 
@@ -36,6 +36,7 @@ The Virtual Trial Room will provide an easy and pleasant experience for any user
  This shows us a detailed list of the profile names and the respective time stamps of posts appearing on the feed.
  
 2. Next, run syntax.txt i.e. 
+
 `instagram-scraper -f profile.txt -u perc.eptrons -p Myntra2020 --template {datetime}--latest-stamps time.txt`
 in the command line.
 > This downloads all the images after the particular latest time stamp. 
