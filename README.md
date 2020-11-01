@@ -80,4 +80,9 @@ A few examples of images obtained using the Mask-RCNN model for semantic segment
 <img src="https://user-images.githubusercontent.com/73772990/97808699-c536e480-1c81-11eb-9492-3f99469a789c.png" alt="Coat" width="250"/>
 <img src="https://user-images.githubusercontent.com/73772990/97808735-fadbcd80-1c81-11eb-8690-e2fb88b963ca.png" alt="Coat" width="250"/>
 
+## Technologies Used
+
+<img src="https://user-images.githubusercontent.com/73772990/97809284-67a49700-1c85-11eb-9e03-76dc3739f7d4.png" alt="Coat" width="100"/>
+<img src="https://user-images.githubusercontent.com/73772990/97809326-a20e3400-1c85-11eb-8aea-9d79449e2d15.png" alt="Coat" width="250"/>
+<img src="https://user-images.githubusercontent.com/73772990/97808735-fadbcd80-1c81-11eb-8690-e2fb88b963ca.png" alt="Coat" width="250"/>
 
