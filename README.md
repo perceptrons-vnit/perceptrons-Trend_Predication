@@ -28,8 +28,16 @@ The first step includes collecting images from the popular social media site - I
 - An account following some of the most famous fashion influencers of today is created.
 - Instagram's algorithm ensures that the feed consists of posts in a descending order according to popularity.
 - Making use of this feature of Instagram, a model - instagram_scraper1.py is created.
+
 ## Installation
 ## Results
+
+1. The scraper model ( instagram_scraper1.py ) outputs - 
+⋅⋅* profile.txt
+⋅⋅* profiles.csv
+⋅⋅* datetime.csv
+
+
 An example of results obtained using open cv grabcut app:
 
 <img src="https://user-images.githubusercontent.com/69817938/97804111-230a0300-1c67-11eb-92e6-f9fdeb224084.png" alt="Coat" width="250"/>
