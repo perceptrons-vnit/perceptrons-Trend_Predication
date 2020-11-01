@@ -61,7 +61,7 @@ Mask-RCNN is used to output segmented images or masks from the basic dataset cre
 
 ### Attribute Recognition
 
-- A decoder-encoder model is used, the decoder being InceptionV3 model and encoder an LSTM-based model.
+- An encoder-decoder model is used, the encoder being InceptionV3 model and decoder an LSTM-based model.
 
 - The masks are fed to this model. The model grabs the images and classifies the pixels.
 
