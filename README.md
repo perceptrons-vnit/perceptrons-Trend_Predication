@@ -6,7 +6,6 @@
      *  [Trend Prediction](#Trend-Prediction)
      *  [Semantic Segmentation](#Semantic-Segmentation)
      *  [Attribute Recognition](#Attribute-Recognition)
-- [Installation](#Installation)
 - [Results](#Results)
 
 ## Overview
@@ -65,13 +64,12 @@ Mask-RCNN is used to output segmented images or masks from the basic dataset cre
 
 The final output of this prototype includes a list of the most trending colours and attributes for the user to choose from.
 
-## Installation
 ## Results
 
+A few examples of images obtained using the Mask-RCNN model for semantic segmentation are given below:
 
-
-An example of results obtained using open cv grabcut app:
-
+<img src="https://user-images.githubusercontent.com/69817938/97804111-230a0300-1c67-11eb-92e6-f9fdeb224084.png" alt="Coat" width="250"/>
+<img src="https://user-images.githubusercontent.com/69817938/97804111-230a0300-1c67-11eb-92e6-f9fdeb224084.png" alt="Coat" width="250"/>
 <img src="https://user-images.githubusercontent.com/69817938/97804111-230a0300-1c67-11eb-92e6-f9fdeb224084.png" alt="Coat" width="250"/>
 
 
