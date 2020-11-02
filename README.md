@@ -95,3 +95,11 @@ A few examples of images obtained after attribute detection using the encoder-de
 <img src="https://user-images.githubusercontent.com/73772990/97809388-fca79000-1c85-11eb-9798-615dd1871437.png" width="100"/>
 <img src="https://user-images.githubusercontent.com/73772990/97809396-0df09c80-1c86-11eb-8e61-7bcaf68e15da.png" width="100"/>
 
+## References
+Mask-RCNN original paper       : https://arxiv.org/abs/1703.06870
+
+Matterpost implementation      : https://github.com/matterport/Mask_RCNN
+
+Semantic segmentation model    : https://github.com/manas3858/iMat-Fashion/
+
+Starter kernel for imat(Kaggle): https://www.kaggle.com/ramswaroopbhakar14/training-inception-v3-for-fashion-attributes
