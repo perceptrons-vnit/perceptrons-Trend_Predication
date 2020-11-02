@@ -25,6 +25,7 @@ A model that would help the user filter the products based on the latest trends 
 Our model detects the latest trends in the market to help the user make the right choice. It would serve as each individual’s own personal, low budget stylist. 
 
 ### Trend Prediction
+
 1. The first step includes collecting images from the popular social media site - Instagram.
 
 - An account following some of the most famous fashion influencers of today is created.
@@ -57,19 +58,24 @@ This completes the creation of basic dataset required for further steps.
 
 ### Semantic Segmentation
 
-Mask-RCNN is used to output segmented images or masks from the basic dataset created by us.
+Due to the time constraints we decided to use COCO_weights to pretrain our Mask-RCNN model and then fine tune it on around 40,000 images from I-Materialist Dataset which is available on kaggle.
+We used the matterpost implementation of Mask-RCNN.
+The output of this step is a segmentation mask which is used to isolate the apparel from its surrounding.
 
 ### Attribute Recognition
 
 - An encoder-decoder model is used, the encoder being InceptionV3 model and decoder an LSTM-based model.
 
-- The masks are fed to this model. The model grabs the images and classifies the pixels.
+- The masks are fed to this model. A feature vector is generated which is decoded to get the attributes.
 
--  K- Means Classification is used for colour detection.
+- K-Means Clustering is used for colour detection.
 
 The final output of this prototype includes a list of the most trending colours and attributes for the user to choose from.
 
-An interactive website is created by deploying the model using Flask.
+This model was used to predict attributes on our dataset and an interactive website is created by deploying the model using Flask.
+The website allows the user to filter the products based on few of these attributes.
+
+
 
 ## Results
 
@@ -94,6 +100,8 @@ A few examples of images obtained after attribute detection using the encoder-de
 <img src="https://user-images.githubusercontent.com/73772990/97809354-ccf88800-1c85-11eb-9c25-71bee5b5f90d.png" width="100"/>
 <img src="https://user-images.githubusercontent.com/73772990/97809388-fca79000-1c85-11eb-9798-615dd1871437.png" width="100"/>
 <img src="https://user-images.githubusercontent.com/73772990/97809396-0df09c80-1c86-11eb-8e61-7bcaf68e15da.png" width="100"/>
+
+
 
 ## References
 Mask-RCNN original paper       : https://arxiv.org/abs/1703.06870
